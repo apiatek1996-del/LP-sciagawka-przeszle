@@ -111,7 +111,7 @@ export default function MailerLiteForm({
                 htmlFor={`privacy-${idSuffix}`}
                 className="text-xs text-stone-600 font-sans leading-relaxed cursor-pointer select-none"
               >
-                Zgadzam się na przetwarzanie danych w celu wysyłki ściągawki i wartościowych wskazówek o hiszpańskim od Agaty Piątek (Ogarnij Hiszpański) zgodnie z{" "}
+                Zgadzam się na przetwarzanie danych w celu wysyłki ściągawki i wartościowych wskazówek o hiszpańskim od Agaty (Ogarnij Hiszpański) zgodnie z{" "}
                 <a
                   href="https://ohiszpanski.pl/polityka-prywatnosci/"
                   target="_blank"

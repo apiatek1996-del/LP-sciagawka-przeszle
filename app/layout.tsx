@@ -41,7 +41,7 @@ export const metadata: Metadata = {
         url: "/fan-sciagawki.jpg",
         width: 1200,
         height: 630,
-        alt: "Ściągawka z czasów przeszłych - Agata Piątek Ogarnij Hiszpański",
+        alt: "Ściągawka z czasów przeszłych - Agata Ogarnij Hiszpański",
       },
     ],
   },

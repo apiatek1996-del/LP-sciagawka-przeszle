@@ -23,7 +23,7 @@ export default function Footer() {
                 Ogarnij Hiszpański
               </span>
               <span className="text-xs text-purple-300/60">
-                Agata Piątek • Praktyczna nauka hiszpańskiego
+                Agata • Praktyczna nauka hiszpańskiego
               </span>
             </div>
           </div>
@@ -47,7 +47,7 @@ export default function Footer() {
           </div>
 
           <div className="text-xs text-purple-300/50 text-center md:text-right">
-            © {currentYear} Agata Piątek • Ogarnij Hiszpański. Wszelkie prawa zastrzeżone.
+            © {currentYear} Ogarnij Hiszpański. Wszelkie prawa zastrzeżone.
           </div>
 
         </div>

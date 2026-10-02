@@ -13,7 +13,7 @@ export default function AboutAgata() {
             <div className="relative aspect-[4/5] rounded-3xl overflow-hidden shadow-xl border-4 border-[#FAF8F5] rotate-1 hover:rotate-0 transition-transform duration-300">
               <Image
                 src="/photo_mug.jpg"
-                alt="Agata Piątek - Ogarnij Hiszpański"
+                alt="Agata - Ogarnij Hiszpański"
                 fill
                 className="object-cover"
                 sizes="(max-width: 768px) 100vw, 400px"
@@ -29,7 +29,7 @@ export default function AboutAgata() {
             </div>
 
             <h2 className="font-heading text-3xl sm:text-4xl font-extrabold text-[#1E1233]">
-              ¡Hola! Jestem Agata Piątek
+              ¡Hola! Jestem Agata
             </h2>
 
             <div className="space-y-3 text-stone-700 text-sm sm:text-base leading-relaxed">

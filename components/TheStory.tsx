@@ -59,7 +59,7 @@ export default function TheStory() {
               <div className="relative aspect-[4/5] rounded-2xl overflow-hidden shadow-md border-3 border-white -rotate-1 hover:rotate-0 transition-transform">
                 <Image
                   src="/photo_desk1.jpg"
-                  alt="Agata Piątek - biurko"
+                  alt="Agata - biurko"
                   fill
                   className="object-cover"
                 />

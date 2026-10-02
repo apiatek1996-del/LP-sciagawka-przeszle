@@ -1,6 +1,6 @@
 # Landing Page – Ściągawka z hiszpańskich czasów przeszłych 🇪🇸
 
-Landing page dla lead magnetu marki **O! Hiszpański (Agata Piątek)**.
+Landing page dla lead magnetu marki **Ogarnij Hiszpański (Agata)**.
 Strona służy do zapisu na darmową ściągawkę PDF z hiszpańskich czasów przeszłych (*Pretérito Indefinido*, *Pretérito Imperfecto*, *Pretérito Perfecto*, *Pretérito Pluscuamperfecto*).
 
 ## 🚀 Technologie

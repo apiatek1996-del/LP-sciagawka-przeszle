@@ -10,7 +10,7 @@ export default function Navbar() {
           <div className="relative w-10 h-10 sm:w-11 sm:h-11 rounded-full overflow-hidden border-2 border-[#7C3AED] shadow-sm">
             <Image
               src="/agata-yellow.jpg"
-              alt="Ogarnij Hiszpański - Agata Piątek"
+              alt="Ogarnij Hiszpański - Agata"
               fill
               className="object-cover object-top"
               priority
@@ -22,7 +22,7 @@ export default function Navbar() {
               <Sparkles className="w-3.5 h-3.5 text-[#7C3AED]" />
             </span>
             <span className="text-[11px] sm:text-xs text-purple-900/60 font-medium">
-              Agata Piątek
+              Agata
             </span>
           </div>
         </a>
