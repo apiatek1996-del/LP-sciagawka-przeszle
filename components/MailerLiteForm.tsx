@@ -113,7 +113,7 @@ export default function MailerLiteForm({
               >
                 Zgadzam się na przetwarzanie danych w celu wysyłki ściągawki i wartościowych wskazówek o hiszpańskim od Agaty Piątek (O! Hiszpański) zgodnie z{" "}
                 <a
-                  href="https://ohiszpanski.pl"
+                  href="https://ohiszpanski.pl/polityka-prywatnosci/"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-[#E86328] underline hover:text-[#D04F16]"

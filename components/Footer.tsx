@@ -30,7 +30,7 @@ export default function Footer() {
 
           <div className="flex flex-wrap items-center justify-center gap-6 text-xs text-stone-400">
             <a
-              href="https://ohiszpanski.pl"
+              href="https://ohiszpanski.pl/polityka-prywatnosci/"
               target="_blank"
               rel="noopener noreferrer"
               className="hover:text-white transition-colors underline"
