@@ -1,7 +1,7 @@
 import React from "react";
-import Image from "next/image";
 import { Sparkles, Clock, Star } from "lucide-react";
 import MailerLiteForm from "./MailerLiteForm";
+import SheetsFan from "./SheetsFan";
 
 export default function Hero() {
   return (
@@ -59,18 +59,8 @@ export default function Hero() {
               </div>
             </div>
 
-            {/* Grafika z wachlarzem kartek i gwiazdkami */}
-            <div className="relative bg-white/70 p-3 sm:p-4 rounded-3xl border border-purple-200 shadow-lg shadow-purple-500/5 group">
-              <div className="relative w-full aspect-[4/3] rounded-2xl overflow-hidden shadow-inner">
-                <Image
-                  src="/fan-sciagawki.jpg"
-                  alt="Wachlarz magicznych ściągawek z hiszpańskiego"
-                  fill
-                  className="object-cover transition-transform duration-500 group-hover:scale-103"
-                  priority
-                />
-              </div>
-            </div>
+            {/* Wachlarz prawdziwych ściągawek Agaty z gwiazdkami */}
+            <SheetsFan />
 
           </div>
 
