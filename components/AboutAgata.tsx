@@ -32,17 +32,17 @@ export default function AboutAgata() {
               ¡Hola! Jestem Agata
             </h2>
 
-            <div className="space-y-3 text-stone-700 text-sm sm:text-base leading-relaxed">
+            <div className="space-y-3.5 text-stone-700 text-sm sm:text-base leading-relaxed">
               <p className="font-semibold text-[#1E1233]">
-                Stworzyłam <strong>Ogarnij Hiszpański</strong>, aby pokazać Polakom, że hiszpańskiego można uczyć się bez paraliżującego strachu przed błędem.
+                Stworzyłam <strong>Ogarnij Hiszpański</strong>, bo wiem, że w nauce języka ważniejsze od wertowania tomów teorii jest <strong>sprytne i szybkie sięganie do znanych reguł</strong>.
               </p>
 
               <p>
-                Jestem magistrą filologii hiszpańskiej i od ponad 9 lat uczę żywego, praktycznego języka. Mieszkam w Hiszpanii i każdego dnia widzę, że to nie wkuwanie tomów teorii, ale <strong>poczucie pewności siebie i upewnianie się w praktyce</strong> pozwala zacząć swobodnie mówić.
+                Doskonale wiem, jak upierdliwe potrafi być nerwowe kartkowanie zeszytu czy podręcznika w poszukiwaniu tej jednej konkretnej zasady lub końcówki. To wybija z rytmu i odbiera całą frajdę z mówienia.
               </p>
 
               <p>
-                Właśnie dlatego stworzyłam te ściągawki – żebyś miała pod ręką bezpieczne wsparcie, które natychmiast rozwiewa wątpliwości.
+                Dużo ważniejsze jest dla mnie <strong>oswojenie się z regułą we własnym tempie</strong> – czasem nawet celowo uproszczoną, byle tylko zaczęła działać w głowie naturalnie i bez oporu. Mam swoje sprawdzone sposoby na mądrą i sprytną naukę, a te ściągawki to właśnie jeden z nich.
               </p>
             </div>
 
