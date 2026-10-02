@@ -1,20 +1,27 @@
 @import "tailwindcss";
 
 :root {
-  --background: #FAF7F2;
-  --foreground: #113629;
+  --background: #FAF8F5;
+  --foreground: #1A2421;
 }
 
 @theme {
-  --color-primary: #EE7B30;
-  --color-primary-hover: #D66A24;
-  --color-brand-green: #113629;
-  --color-brand-green-light: #1A4D3B;
-  --color-brand-cream: #FAF7F2;
-  --color-brand-amber: #FDF3E7;
-  --color-brand-sand: #EFE8DC;
-  --color-foreground: #113629;
-  --color-foreground-muted: #3D5A4F;
+  --color-primary: #E86328;
+  --color-primary-hover: #D04F16;
+
+  /* Kolory z palety ściągawek Agaty */
+  --color-pastel-peach: #FCE4D6;
+  --color-pastel-peach-text: #8C3B19;
+  
+  --color-pastel-mint: #D6EFE7;
+  --color-pastel-mint-text: #125442;
+  
+  --color-pastel-yellow: #FDEECA;
+  --color-pastel-yellow-text: #7A5C0E;
+
+  --color-brand-dark: #192B23;
+  --color-brand-cream: #FAF8F5;
+  --color-brand-sand: #F3ECE2;
 
   --font-sans: var(--font-open-sans), -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
   --font-heading: var(--font-merriweather), Georgia, serif;

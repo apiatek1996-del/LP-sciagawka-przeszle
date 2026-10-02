@@ -5,12 +5,12 @@ export default function Footer() {
   const currentYear = 2026;
 
   return (
-    <footer className="bg-[#0B251C] text-stone-400 py-12 border-t border-stone-800">
+    <footer className="bg-[#121E18] text-stone-400 py-12 border-t border-stone-800">
       <div className="max-w-6xl mx-auto px-4 sm:px-6">
         <div className="flex flex-col md:flex-row items-center justify-between gap-6">
           
           <div className="flex items-center gap-3">
-            <div className="relative w-9 h-9 rounded-full overflow-hidden border border-[#EE7B30]">
+            <div className="relative w-9 h-9 rounded-full overflow-hidden border border-[#E86328]">
               <Image
                 src="/brand-logo.jpg"
                 alt="O! Hiszpański"

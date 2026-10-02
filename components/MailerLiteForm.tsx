@@ -7,8 +7,6 @@ import { Send, Lock, CheckCircle2, Sparkles } from "lucide-react";
  * =========================================================================
  * KONFIGURACJA FORMULARZA MAILERLITE
  * =========================================================================
- * Gdy utworzysz formularz w MailerLite, podmień poniższe ID na swoje:
- * Możesz też ustawić zmienną w Vercel: NEXT_PUBLIC_MAILERLITE_FORM_ID
  */
 export const DEFAULT_MAILERLITE_FORM_ID =
   process.env.NEXT_PUBLIC_MAILERLITE_FORM_ID || "200227400745748223";
@@ -23,9 +21,9 @@ interface MailerLiteFormProps {
 
 export default function MailerLiteForm({
   idSuffix = "hero",
-  buttonText = "Odbierz darmową ściągawkę PDF",
+  buttonText = "Odbierz ściągawkę z czasów przeszłych",
   title = "Gdzie mam wysłać Twoją ściągawkę?",
-  subtitle = "Wpisz imię i adres e-mail, a plik PDF wyląduje w Twojej skrzynce w 2 minuty.",
+  subtitle = "Wpisz imię i e-mail, a plik PDF wyląduje w Twojej skrzynce w ciągu 2 minut.",
   customFormId,
 }: MailerLiteFormProps) {
   const formId = customFormId || DEFAULT_MAILERLITE_FORM_ID;
@@ -36,20 +34,20 @@ export default function MailerLiteForm({
       id={embedId}
       className={`ml-form-embedContainer ml-subscribe-form ml-subscribe-form-${formId} w-full`}
     >
-      <div className="ml-form-embedWrapper embedForm bg-white rounded-2xl shadow-xl shadow-[#113629]/5 border border-stone-200/80 p-6 sm:p-8">
+      <div className="ml-form-embedWrapper embedForm bg-white rounded-2xl shadow-xl shadow-[#192B23]/5 border border-stone-200/90 p-6 sm:p-8">
         {/* Formularz - automatycznie ukrywany przez skrypt MailerLite po wysłaniu */}
         <div className="ml-form-embedBody ml-form-embedBodyDefault row-form">
           {title && (
             <div className="mb-6 text-center">
-              <div className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-[#FDF3E7] text-[#EE7B30] text-xs font-semibold uppercase tracking-wider mb-2">
+              <div className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-[#FCE4D6] text-[#8C3B19] text-xs font-bold uppercase tracking-wider mb-2">
                 <Sparkles className="w-3.5 h-3.5" />
-                Darmowy materiał PDF
+                100% Darmowy materiał PDF
               </div>
-              <h3 className="font-heading text-xl sm:text-2xl font-bold text-[#113629] leading-snug">
+              <h3 className="font-heading text-xl sm:text-2xl font-bold text-[#192B23] leading-snug">
                 {title}
               </h3>
               {subtitle && (
-                <p className="mt-2 text-sm text-stone-600 leading-relaxed max-w-md mx-auto">
+                <p className="mt-2 text-xs sm:text-sm text-stone-600 leading-relaxed max-w-md mx-auto">
                   {subtitle}
                 </p>
               )}
@@ -66,7 +64,7 @@ export default function MailerLiteForm({
             <div>
               <label
                 htmlFor={`name-${idSuffix}`}
-                className="block text-xs font-semibold text-[#113629] uppercase tracking-wider mb-1.5"
+                className="block text-xs font-bold text-[#192B23] uppercase tracking-wider mb-1.5"
               >
                 Twoje imię
               </label>
@@ -74,9 +72,9 @@ export default function MailerLiteForm({
                 id={`name-${idSuffix}`}
                 aria-label="name"
                 type="text"
-                className="w-full px-4 py-3.5 rounded-xl border border-stone-200 bg-white focus:border-[#EE7B30] focus:ring-2 focus:ring-[#EE7B30]/20 outline-none transition-all font-sans text-stone-800 placeholder:text-stone-400 shadow-sm text-base"
+                className="w-full px-4 py-3.5 rounded-xl border border-stone-200 bg-white focus:border-[#E86328] focus:ring-2 focus:ring-[#E86328]/20 outline-none transition-all font-sans text-stone-800 placeholder:text-stone-400 shadow-sm text-base"
                 name="fields[name]"
-                placeholder="np. Anna"
+                placeholder="np. Kasia"
                 autoComplete="given-name"
                 required
               />
@@ -85,7 +83,7 @@ export default function MailerLiteForm({
             <div>
               <label
                 htmlFor={`email-${idSuffix}`}
-                className="block text-xs font-semibold text-[#113629] uppercase tracking-wider mb-1.5"
+                className="block text-xs font-bold text-[#192B23] uppercase tracking-wider mb-1.5"
               >
                 Twój najlepszy adres e-mail
               </label>
@@ -94,9 +92,9 @@ export default function MailerLiteForm({
                 aria-label="email"
                 aria-required="true"
                 type="email"
-                className="w-full px-4 py-3.5 rounded-xl border border-stone-200 bg-white focus:border-[#EE7B30] focus:ring-2 focus:ring-[#EE7B30]/20 outline-none transition-all font-sans text-stone-800 placeholder:text-stone-400 shadow-sm text-base"
+                className="w-full px-4 py-3.5 rounded-xl border border-stone-200 bg-white focus:border-[#E86328] focus:ring-2 focus:ring-[#E86328]/20 outline-none transition-all font-sans text-stone-800 placeholder:text-stone-400 shadow-sm text-base"
                 name="fields[email]"
-                placeholder="np. anna@twojadomena.pl"
+                placeholder="np. kasia@twojadomena.pl"
                 autoComplete="email"
                 required
               />
@@ -106,7 +104,7 @@ export default function MailerLiteForm({
               <input
                 type="checkbox"
                 id={`privacy-${idSuffix}`}
-                className="mt-1 w-4 h-4 text-[#EE7B30] rounded border-stone-300 focus:ring-[#EE7B30] cursor-pointer accent-[#EE7B30]"
+                className="mt-1 w-4 h-4 text-[#E86328] rounded border-stone-300 focus:ring-[#E86328] cursor-pointer accent-[#E86328]"
                 required
               />
               <label
@@ -118,7 +116,7 @@ export default function MailerLiteForm({
                   href="https://ohiszpanski.pl"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="text-[#EE7B30] underline hover:text-[#D66A24]"
+                  className="text-[#E86328] underline hover:text-[#D04F16]"
                 >
                   Polityką Prywatności
                 </a>
@@ -126,7 +124,7 @@ export default function MailerLiteForm({
               </label>
             </div>
 
-            {/* Recaptcha wymagana przez MailerLite (Zabezpieczenie antybotowe) */}
+            {/* Recaptcha wymagana przez MailerLite */}
             <div className="ml-form-recaptcha ml-validate-required flex justify-center py-1">
               <div
                 className="g-recaptcha scale-90 origin-center"
@@ -139,7 +137,7 @@ export default function MailerLiteForm({
 
             <button
               type="submit"
-              className="w-full mt-2 group relative flex items-center justify-center gap-2 bg-[#EE7B30] hover:bg-[#D66A24] text-white font-bold text-base sm:text-lg py-4 px-6 rounded-xl transition-all duration-200 transform hover:-translate-y-0.5 shadow-lg shadow-[#EE7B30]/30 cursor-pointer"
+              className="w-full mt-2 group relative flex items-center justify-center gap-2 bg-[#E86328] hover:bg-[#D04F16] text-white font-bold text-base sm:text-lg py-4 px-6 rounded-xl transition-all duration-200 transform hover:-translate-y-0.5 shadow-lg shadow-[#E86328]/30 cursor-pointer"
             >
               <span>{buttonText}</span>
               <Send className="w-5 h-5 transition-transform group-hover:translate-x-1" />
@@ -157,11 +155,11 @@ export default function MailerLiteForm({
           className="ml-form-successBody row-success"
           style={{ display: "none" }}
         >
-          <div className="text-center p-6 sm:p-8 bg-[#FDF3E7] border-2 border-[#EE7B30]/30 rounded-2xl">
+          <div className="text-center p-6 sm:p-8 bg-[#FAF8F5] border-2 border-[#E86328]/30 rounded-2xl">
             <div className="w-12 h-12 mx-auto mb-4 rounded-full bg-emerald-100 text-emerald-700 flex items-center justify-center">
               <CheckCircle2 className="w-8 h-8" />
             </div>
-            <h4 className="font-heading font-black text-[#113629] text-2xl mb-2">
+            <h4 className="font-heading font-black text-[#192B23] text-2xl mb-2">
               ¡Excelente! Sprawdź skrzynkę 📩
             </h4>
             <p className="font-sans text-stone-700 text-sm sm:text-base leading-relaxed max-w-md mx-auto">

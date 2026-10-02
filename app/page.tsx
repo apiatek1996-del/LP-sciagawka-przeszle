@@ -1,8 +1,9 @@
 import React from "react";
 import Navbar from "@/components/Navbar";
 import Hero from "@/components/Hero";
-import ComparisonTable from "@/components/ComparisonTable";
+import TheStory from "@/components/TheStory";
 import CheatSheetDetails from "@/components/CheatSheetDetails";
+import CheatSheetFullPreview from "@/components/CheatSheetFullPreview";
 import WhoIsThisFor from "@/components/WhoIsThisFor";
 import AboutAgata from "@/components/AboutAgata";
 import FAQ from "@/components/FAQ";
@@ -11,11 +12,12 @@ import Footer from "@/components/Footer";
 
 export default function Home() {
   return (
-    <main className="min-h-screen flex flex-col bg-[#FAF7F2]">
+    <main className="min-h-screen flex flex-col bg-[#FAF8F5]">
       <Navbar />
       <Hero />
-      <ComparisonTable />
+      <TheStory />
       <CheatSheetDetails />
+      <CheatSheetFullPreview />
       <WhoIsThisFor />
       <AboutAgata />
       <FAQ />
