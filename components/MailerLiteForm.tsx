@@ -11,7 +11,7 @@ import { Send, Lock, CheckCircle2, Sparkles } from "lucide-react";
  * Możesz też ustawić zmienną w Vercel: NEXT_PUBLIC_MAILERLITE_FORM_ID
  */
 export const DEFAULT_MAILERLITE_FORM_ID =
-  process.env.NEXT_PUBLIC_MAILERLITE_FORM_ID || "199503207245809654";
+  process.env.NEXT_PUBLIC_MAILERLITE_FORM_ID || "200227400745748223";
 
 interface MailerLiteFormProps {
   idSuffix?: string;
