@@ -34,11 +34,11 @@ export default function AboutAgata() {
 
             <div className="space-y-3.5 text-stone-700 text-sm sm:text-base leading-relaxed">
               <p className="font-semibold text-[#1E1233]">
-                Stworzyłam <strong>Ogarnij Hiszpański</strong>, bo wiem, że w nauce języka ważniejsze od wertowania tomów teorii jest <strong>sprytne i szybkie sięganie do znanych reguł</strong>.
+                Stworzyłam <strong>Ogarnij Hiszpański</strong> z prostego powodu: w nauce języka znacznie ważniejsze od wertowania tomów teorii jest <strong>sprytne i szybkie sięganie do znanych reguł</strong>.
               </p>
 
               <p>
-                Doskonale wiem, jak upierdliwe potrafi być nerwowe kartkowanie zeszytu czy podręcznika w poszukiwaniu tej jednej konkretnej zasady lub końcówki. To wybija z rytmu i odbiera całą frajdę z mówienia.
+                Sama doskonale pamiętam, jak upierdliwe potrafi być nerwowe kartkowanie zeszytu czy podręcznika w poszukiwaniu tej jednej konkretnej zasady lub końcówki. To wybija z rytmu i odbiera całą frajdę z mówienia.
               </p>
 
               <p>
