@@ -18,30 +18,30 @@ const openSans = Open_Sans({
 });
 
 export const viewport: Viewport = {
-  themeColor: "#EE7B30",
+  themeColor: "#7C3AED",
   width: "device-width",
   initialScale: 1,
 };
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://ohiszpanski.pl"),
-  title: "Ściągawka z hiszpańskich czasów przeszłych | O! Hiszpański",
-  description: "Pobierz darmową ściągawkę PDF. Koniec z myleniem Pretérito Indefinido i Imperfecto – jasne reguły, słowa klucze i praktyczne przykłady.",
+  title: "Ściągawka z hiszpańskich czasów przeszłych | Ogarnij Hiszpański",
+  description: "Pobierz darmową ściągawkę z 3 czasów przeszłych. Koniec ze zgadywaniem – upewnij się, mów poprawnie i zyskaj pewność siebie.",
   icons: {
     icon: "/brand-logo.jpg",
     apple: "/brand-logo.jpg",
   },
   openGraph: {
-    title: "Ściągawka z hiszpańskich czasów przeszłych | O! Hiszpański",
-    description: "Pobierz bezpłatną ściągawkę PDF. Sprawdź kiedy użyć Indefinido, a kiedy Imperfecto i zacznij swobodnie opowiadać po hiszpańsku.",
+    title: "Ściągawka z hiszpańskich czasów przeszłych | Ogarnij Hiszpański",
+    description: "Pobierz darmową ściągawkę PDF z 3 czasów przeszłych. Pretérito Perfecto, Indefinido i Imperfecto na jednej kartce.",
     locale: "pl_PL",
     type: "website",
     images: [
       {
-        url: "/photo_desk1.jpg",
+        url: "/fan-sciagawki.jpg",
         width: 1200,
         height: 630,
-        alt: "Ściągawka z czasów przeszłych - Agata Piątek O! Hiszpański",
+        alt: "Ściągawka z czasów przeszłych - Agata Piątek Ogarnij Hiszpański",
       },
     ],
   },
@@ -55,7 +55,7 @@ export default function RootLayout({
   return (
     <html lang="pl">
       <body
-        className={`${merriweather.variable} ${openSans.variable} font-sans bg-[#FAF7F2] text-[#113629] overflow-x-hidden min-h-screen flex flex-col`}
+        className={`${merriweather.variable} ${openSans.variable} font-sans bg-[#FAF8F5] text-[#1E1233] overflow-x-hidden min-h-screen flex flex-col`}
         suppressHydrationWarning
       >
         {/* MailerLite Universal Script */}

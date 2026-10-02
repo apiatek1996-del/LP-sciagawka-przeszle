@@ -2,24 +2,19 @@
 
 :root {
   --background: #FAF8F5;
-  --foreground: #1A2421;
+  --foreground: #191624;
 }
 
 @theme {
-  --color-primary: #E86328;
-  --color-primary-hover: #D04F16;
+  --color-primary: #7C3AED;
+  --color-primary-hover: #6D28D9;
+  --color-primary-light: #8B5CF6;
+  --color-magic-purple: #7C3AED;
+  --color-magic-violet: #6D28D9;
+  --color-magic-lavender: #DDD6FE;
+  --color-magic-glow: #EDE9FE;
 
-  /* Kolory z palety ściągawek Agaty */
-  --color-pastel-peach: #FCE4D6;
-  --color-pastel-peach-text: #8C3B19;
-  
-  --color-pastel-mint: #D6EFE7;
-  --color-pastel-mint-text: #125442;
-  
-  --color-pastel-yellow: #FDEECA;
-  --color-pastel-yellow-text: #7A5C0E;
-
-  --color-brand-dark: #192B23;
+  --color-brand-dark: #1E1233;
   --color-brand-cream: #FAF8F5;
   --color-brand-sand: #F3ECE2;
 

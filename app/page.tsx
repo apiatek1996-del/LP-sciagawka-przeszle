@@ -2,11 +2,8 @@ import React from "react";
 import Navbar from "@/components/Navbar";
 import Hero from "@/components/Hero";
 import TheStory from "@/components/TheStory";
-import CheatSheetDetails from "@/components/CheatSheetDetails";
-import CheatSheetFullPreview from "@/components/CheatSheetFullPreview";
-import WhoIsThisFor from "@/components/WhoIsThisFor";
+import MockupSection from "@/components/MockupSection";
 import AboutAgata from "@/components/AboutAgata";
-import FAQ from "@/components/FAQ";
 import BottomCTA from "@/components/BottomCTA";
 import Footer from "@/components/Footer";
 
@@ -16,11 +13,8 @@ export default function Home() {
       <Navbar />
       <Hero />
       <TheStory />
-      <CheatSheetDetails />
-      <CheatSheetFullPreview />
-      <WhoIsThisFor />
+      <MockupSection />
       <AboutAgata />
-      <FAQ />
       <BottomCTA />
       <Footer />
     </main>

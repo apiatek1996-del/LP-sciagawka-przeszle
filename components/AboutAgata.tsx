@@ -1,18 +1,19 @@
 import React from "react";
 import Image from "next/image";
+import { Sparkles } from "lucide-react";
 
 export default function AboutAgata() {
   return (
-    <section className="py-16 sm:py-24 bg-white border-y border-stone-200">
+    <section className="py-16 sm:py-20 bg-white border-t border-purple-100">
       <div className="max-w-5xl mx-auto px-4 sm:px-6">
-        <div className="flex flex-col md:flex-row gap-10 md:gap-14 items-center">
+        <div className="flex flex-col md:flex-row gap-8 md:gap-12 items-center">
           
           {/* Zdjęcie Agaty */}
-          <div className="w-full md:w-5/12 max-w-sm">
+          <div className="w-full md:w-5/12 max-w-xs sm:max-w-sm">
             <div className="relative aspect-[4/5] rounded-3xl overflow-hidden shadow-xl border-4 border-[#FAF8F5] rotate-1 hover:rotate-0 transition-transform duration-300">
               <Image
                 src="/photo_mug.jpg"
-                alt="Agata Piątek - O! Hiszpański"
+                alt="Agata Piątek - Ogarnij Hiszpański"
                 fill
                 className="object-cover"
                 sizes="(max-width: 768px) 100vw, 400px"
@@ -21,37 +22,38 @@ export default function AboutAgata() {
           </div>
 
           {/* Opis */}
-          <div className="w-full md:w-7/12 space-y-5 text-left">
-            <span className="text-xs font-bold uppercase tracking-wider text-[#E86328] bg-[#FDF3E7] px-3.5 py-1 rounded-full">
-              O autorce
-            </span>
+          <div className="w-full md:w-7/12 space-y-4 text-left">
+            <div className="inline-flex items-center gap-1.5 text-xs font-bold uppercase tracking-wider text-[#7C3AED] bg-purple-50 px-3 py-1 rounded-full border border-purple-200">
+              <Sparkles className="w-3.5 h-3.5" />
+              <span>O mnie</span>
+            </div>
 
-            <h2 className="font-heading text-3xl sm:text-4xl font-extrabold text-[#192B23]">
+            <h2 className="font-heading text-3xl sm:text-4xl font-extrabold text-[#1E1233]">
               ¡Hola! Jestem Agata Piątek
             </h2>
 
-            <div className="space-y-4 text-stone-700 text-sm sm:text-base leading-relaxed">
-              <p className="font-semibold text-[#192B23] text-base sm:text-lg">
-                Jestem magistrą filologii hiszpańskiej i od ponad 9 lat uczę Polaków, jak swobodnie mówić po hiszpańsku bez wiecznego paraliżu gramatycznego.
+            <div className="space-y-3 text-stone-700 text-sm sm:text-base leading-relaxed">
+              <p className="font-semibold text-[#1E1233]">
+                Stworzyłam <strong>Ogarnij Hiszpański</strong>, aby pokazać Polakom, że hiszpańskiego można uczyć się bez paraliżującego strachu przed błędem.
               </p>
 
               <p>
-                Mieszkam na co dzień w Hiszpanii i wiem, że w prawdziwej rozmowie nie ma czasu na wertowanie podręczników. Liczy się <strong>intuicja, automatyzm i prostota</strong>.
+                Jestem magistrą filologii hiszpańskiej i od ponad 9 lat uczę żywego, praktycznego języka. Mieszkam w Hiszpanii i każdego dnia widzę, że to nie wkuwanie tomów teorii, ale <strong>poczucie pewności siebie i upewnianie się w praktyce</strong> pozwala zacząć swobodnie mówić.
               </p>
 
               <p>
-                Ściągawki, które tworzę dla moich kursantów, mają jeden cel: zdjąć z Twoich barków stres. Kładziesz kartkę przed sobą, zerkasz i mówisz dalej. Zobaczysz, jak szybko Twoja pamięć zacznie działać sama!
+                Właśnie dlatego stworzyłam te ściągawki – żebyś miała pod ręką bezpieczne wsparcie, które natychmiast rozwiewa wątpliwości.
               </p>
             </div>
 
-            <div className="pt-2 flex flex-wrap gap-2.5 sm:gap-3">
-              <div className="bg-[#FAF8F5] border border-stone-200 px-3.5 py-1.5 rounded-lg text-xs font-bold text-[#192B23]">
+            <div className="pt-2 flex flex-wrap gap-2.5">
+              <div className="bg-[#FAF8F5] border border-purple-100 px-3.5 py-1.5 rounded-lg text-xs font-bold text-[#1E1233]">
                 🎓 Magistra Filologii Hiszpańskiej
               </div>
-              <div className="bg-[#FAF8F5] border border-stone-200 px-3.5 py-1.5 rounded-lg text-xs font-bold text-[#192B23]">
+              <div className="bg-[#FAF8F5] border border-purple-100 px-3.5 py-1.5 rounded-lg text-xs font-bold text-[#1E1233]">
                 🇪🇸 Na stałe w Hiszpanii
               </div>
-              <div className="bg-[#FAF8F5] border border-stone-200 px-3.5 py-1.5 rounded-lg text-xs font-bold text-[#192B23]">
+              <div className="bg-[#FAF8F5] border border-purple-100 px-3.5 py-1.5 rounded-lg text-xs font-bold text-[#1E1233]">
                 👥 Ponad 400 zadowolonych kursantów
               </div>
             </div>
