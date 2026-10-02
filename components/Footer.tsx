@@ -12,10 +12,10 @@ export default function Footer() {
           <div className="flex items-center gap-3">
             <div className="relative w-9 h-9 rounded-full overflow-hidden border border-[#7C3AED]">
               <Image
-                src="/brand-logo.jpg"
+                src="/agata-yellow.jpg"
                 alt="Ogarnij Hiszpański"
                 fill
-                className="object-cover"
+                className="object-cover object-top"
               />
             </div>
             <div>
